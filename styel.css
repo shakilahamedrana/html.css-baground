@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 'lato';
+}
+.section{
+    background: url(photo-1517960413843-0aee8e2b3285.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+    text-align: center;
+}
+.section h1{
+    color: rgb(8, 4, 249);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.section h1 samp{
+    color: rgb(7, 8, 8);
+    font-size: 55px;
+}
+.section button{
+    color: rgb(2, 6, 10);
+    border: 1px solid rgb(51, 7, 226);
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+.section button:hover{
+    border-color: rgb(14, 227, 10);
+    color: rgb(228, 9, 9);
+    border-radius: 25px;
+}
